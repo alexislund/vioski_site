@@ -95,8 +95,43 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Main Nav */
 
+html{
+    font-family: sans-serif;
+}
 
+header{
+    background-color: white;
+}
+.main-nav ul {
+    list-style: none;
+}
+.main-nav ul li {
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: #575757;
+}
+ .main-nav li:hover {
+        color: white;
+        text-decoration: none;
+}
+.main-nav li ul {
+        display: none;
+        position: absolute;
+        padding: 0;
+        left: 309px;
+        top: 57px;
+}
+.main-nav li:hover ul {
+        display: block; 
+}
+.main-nav li li a {
+        border: 0;
+        padding: 10px;
+}
 
 
 
