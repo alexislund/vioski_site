@@ -96,25 +96,34 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Main Nav */
-
 html{
     font-family: sans-serif;
 }
 
 header{
     background-color: white;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+header h1 {
+  color: #736e6b;
+  font-size: 3.2em;
+  float: left;
+  font-weight: lighter;
+  letter-spacing: 4px;
+}
+.main-nav {
+    margin: 70px 0px 0px 175px;
+    letter-spacing: 4px;
+    position: relative;
 }
 .main-nav ul {
     list-style: none;
 }
 .main-nav ul li {
     float: left;
-}
-a {
-    text-decoration: none;
-    color: #575757;
 }
  .main-nav li:hover {
         color: white;
@@ -134,73 +143,122 @@ a {
         border: 0;
         padding: 10px;
 }
+p#contact {
+        background-color: #ebe9e7;
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 15px;
+        font-size: .8em;
+        font-weight: bold;
+        letter-spacing: 4px;
+}
+a#contact-link {
+        text-decoration: none;
+        color: #444444;
+}
 body {
-        font-family: 'Montserrat', sans-serif
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+}
+header {
+        margin: 0px;
+}
+#feature1-title {
+        float: right;
+        width: 500px;
 }
 article.feature-2left {
         float: left;
-        margin: 0px auto 0px auto;
-}
-.chair-text1 {
-        width: 90%;
-        height: 400px;
-        padding: 30px;
-        background-image: url("../img/palmschair.png");
-        background-repeat: no-repeat;
-        background-position: 30px
-}
-.chair-text1 h2 p {
-        display: none;
-}
-.chair-text1 h2 p:hover {
-        display: block;
-}
-.chair-text1:hover {
-        background-color: #8eb2b9;
-}
-.chair-text2 {
-        width: 90%;
-        height: 400px;
-        padding: 30px;
-        background-image: url("../img/milochair.png");
-        background-repeat: no-repeat;
-        background-position: 30px
-}
-.chair-text2 h2 p {
-        display: none;
-}
-.chair-text2 h2 p:hover {
-        display: block;
-}
-.chair-text2:hover {
-        background-color: #8eb2b9;
-}
-#chair-feature img {
-  width: 90%;
-  height: 300px;
-  margin: auto;
-  position: absolute;
-  z-index: -3;
+        width: 400px;
 }
 article.feature-2right {
         float: right;
-        margin: 0px auto 0px auto;
+        width: 400px;
 }
-
-section.feature #3 {
-        clear: both;
+.chair-text1 {
+        width: 400px;
+        height: 350px;
+        padding: 30px;
+        background-image: url("../img/palmschair.png");
+        background-repeat: no-repeat;
+        background-position: 5px;
+}
+.chair-text1 h2 {
+        opacity: 0;
+}
+.chair-text1 h2:hover {
+        opacity: 1;
+}
+.chair-text1:hover {
+        background-color: #8eb2b9;
+        background-image: none;
+}
+.chair-text2 h2 {
+        opacity: 0;
+}
+.chair-text2 h2:hover {
+        opacity: 1;
+}
+.chair-text2 {
+        width: 400px;
+        height: 350px;
+        padding: 30px;
+        background-image: url("../img/milochair.png");
+        background-repeat: no-repeat;
+        background-position: 55px;
+}
+.chair-text2:hover {
+        background-color: #8eb2b9;
+        background-image: none;
+}
+#chair-feature img {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  left: 30px;
+  z-index: -3;
+}
+article.feature-2right {
+        float: left;
+        margin: 0px 0px 0px 10%;
 }
 #chair-feature {
         width: 90%;
-        margin: 0px auto 0px auto;
+        margin: auto;
 }
-
-
-
-
-
-
-
+a.learn-more {
+      text-decoration: none;
+      color: #544048;
+      border-bottom: 2px solid #544048;
+      padding-bottom: 3px;
+}
+a.learn-more:hover {
+      text-decoration: none;
+      border: none;
+}
+.main-nav a {
+      text-decoration: none;
+      color: #544048;
+      font-size: .8em;
+      font-weight: bold;
+      margin: 0px 10px 0px 10px;
+}
+.main-nav a:hover {
+      border-bottom: 2px solid #544048;
+      color: #544048;
+}
+.feature #a img{
+        float: right;
+        width: 50%
+}
+.feature #a .feature-content {
+        float: left;
+}
 
 
 
